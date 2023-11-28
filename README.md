@@ -58,3 +58,4 @@ All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (v
 
 #### Tasks 0x00
 0x00. Python - Hello, World
+0x01. Python - if/else, loops, functions
