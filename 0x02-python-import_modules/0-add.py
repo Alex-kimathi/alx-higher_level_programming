@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-import add_0
-a = 1
-b = 2
+if __name__ == "__main__":
+    """print ths sum of a and b"""
 
-result = add_0. add(a, b)
-print(f"{a} + {b} = {result}")
+    import add_0
+    a = 1
+    b = 2
+
+    result = add_0.add(a, b)
+    print("{} + {} = {}".format(a, b, result))
