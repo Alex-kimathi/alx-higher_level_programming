@@ -1,2 +1,6 @@
+# The script runs the python file in the environment variable named PYFILE
+# -n checks if the file exists and is  n on empty
+# -f checks if the file contains normal file
+# finally the python3 exeutes the file
 #!/bin/bash
 [ -n "$PYFILE" ] && [ -f "$PYFILE" ] && python3 "$PYFILE"
