@@ -1,2 +1,6 @@
+# -n checks of the pycode is not empty
+# echo print the code of the pycode and pipes it to the python interpreter
+# | pipes or sends the data to python intepreter
+# - hyphen at the ends indicates that the python should read as a std input
 #!/bin/bash
 [ -n "$PYCODE" ] && echo "$PYCODE" | python3 -
